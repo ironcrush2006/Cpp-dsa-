@@ -8,9 +8,9 @@ class node{
 void printList(node*n){  
     //loop to print the values
     while(n!=NULL){ 
-         std::cout<<n->data<<std::endl; //values stored in the int data
-        n=n->next;
-         std::cout<<n->next<<std::endl;//memory address of node*next
+         std::cout<<n->data<<std::endl;  //values stored in the int data 
+         std::cout<<n->next<<std::endl;
+        n=n->next;//memory address of node*next
     }
 }
 int main(){ 
